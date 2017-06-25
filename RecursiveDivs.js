@@ -1,6 +1,11 @@
 import React from "react";
 
 class RecursiveDivs extends React.Component {
+  constructor() {
+    super();
+    this.click = this.click.bind(this);
+  }
+
 	render() {
 		const {depth, breadth} = this.props;
 
@@ -12,7 +17,7 @@ class RecursiveDivs extends React.Component {
 		for (let i = 0; i < breadth; i++) {
 			children.push(<RecursiveDivs key={i} depth={depth-1} breadth={breadth}/>);
 		}
-		return <div onClick={() => this.click()}>{children}</div>;
+		return <div onClick={this.click}>{children}</div>;
 	}
 
 	click() {

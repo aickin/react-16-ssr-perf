@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "benchmark": "NODE_ENV=production node index.js"
+    "benchmark": "node index.js"
   },
   "author": "Sasha Aickin",
   "license": "Apache-2.0",
