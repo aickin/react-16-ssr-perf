@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clean-packages": "rm package-lock.json; rm -rf node_modules/ &&  npm install",
+    "relink-packages": "unlink node_modules/react && unlink node_modules/react-dom && cp -r ../react/build/packages/react node_modules/react && cp -r ../react/build/packages/react-dom node_modules/react-dom",
     "benchmark": "NODE_ENV=production node index.js"
   },
   "author": "Sasha Aickin",
