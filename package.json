@@ -16,8 +16,8 @@
     "babel-preset-react": "^6.3.13",
     "babel-register": "^6.3.13",
     "benchmark": "^2.0.0",
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0",
+    "react": "file:../react/build/packages/react",
+    "react-dom": "file:../react/build/packages/react-dom",
     "react-dom-stream": "^0.5.0"
   }
 }
