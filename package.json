@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clean-packages": "rm package-lock.json; rm -rf node_modules/ &&  npm install",
     "benchmark": "NODE_ENV=production node index.js"
   },
   "author": "Sasha Aickin",
