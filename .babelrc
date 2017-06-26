@@ -1,4 +1,4 @@
 {
 	"presets": ["es2015", "react"],
-	"plugins": ["transform-react-constant-elements", "transform-react-inline-elements"]
+  "plugins": ["transform-node-env-inline", "transform-react-constant-elements", "transform-react-inline-elements"]
 }
