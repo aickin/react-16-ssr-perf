@@ -2,7 +2,7 @@
 
 This repo contains the code for the benchmark used in my Medium article ["What’s New With Server-Side Rendering in React 16"](https://todo).
 
-<img src="chart.png" alt="Chart showing that React 16 renders on the server faster than React 15" width="600" height="372" border="10">
+<img src="chart.png" alt="Chart showing that React 16 renders on the server faster than React 15" width="800" height="496" border="10">
 
 Please note that the benchmark is **very** synthetic, and you will probably not see these kinds of results in real-world use. If you have better React SSR benchmarks, please drop a line and let me know!
 
