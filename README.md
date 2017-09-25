@@ -19,7 +19,7 @@ There are three branches, which correspond to the three different test condition
 
 * `new-prod-mode-15`: React 15 (raw)
 * `new-prod-mode-inline-env-15`: React 15 (compiled)
-* `new-prod-mode-16: React 16`
+* `new-prod-mode-16`: React 16
 
 To run the benchmark, checkout the branch you want, reinstall dependencies, and then type `npm run benchmark`. For example, if you want to run React 15 (compiled):
 
