@@ -1,6 +1,6 @@
 # react-16-ssr-perf
 
-This repo contains the code for the benchmark used in my Medium article ["What’s New With Server-Side Rendering in React 16"](https://todo).
+This repo contains the code for the benchmark used in my Medium article ["What’s New With Server-Side Rendering in React 16"](https://hackernoon.com/whats-new-with-server-side-rendering-in-react-16-9b0d78585d67).
 
 <img src="chart.png" alt="Chart showing that React 16 renders on the server faster than React 15" width="800" height="496" border="10">
 
